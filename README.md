@@ -1,20 +1,38 @@
 # Event Management Platform
 
-A simple event management web app built with ASP.NET Core MVC and SQLite.
+A comprehensive Event Management Platform built with **ASP.NET Core 9 MVC** and **Entity Framework Core** with SQLite database. This application provides both web interface and REST API for managing events with full CRUD operations.
 
-## Features
+## 🌟 Features
 
-- ✅ Create, edit, delete events
-- ✅ Track event status: Upcoming, Attending, Maybe, Declined
-- ✅ Search and filter by title, date range, location, status
-- ✅ Full CRUD via backend + frontend
-- ✅ Uses SQLite for easy local setup
-- ✅ Pre-seeded with sample data
+### ✅ Core Features (Assignment Requirements)
+- **Create, Edit, Delete Events**: Full CRUD operations with title, date/time, location, and description
+- **Event Status Tracking**: Track events as upcoming, attending, maybe, or declined
+- **Search & Filter**: Advanced filtering by title, date range, location, and status
+- **Responsive Web Interface**: Clean, modern UI built with Bootstrap
+- **RESTful API**: Complete API endpoints for all operations
+- **Data Persistence**: All data stored in SQLite database (no mock data)
 
-## Tech Stack
+### 🚀 Technical Features
+- **.NET 9 MVC** with clean architecture
+- **Entity Framework Core** with Code-First approach
+- **SQLite Database** for easy local development and deployment
+- **Service Layer Architecture** for business logic separation
+- **Comprehensive Error Handling** and validation
+- **API Documentation** with Swagger integration
+- **Pagination Support** for large datasets
+- **Seeded Sample Data** for immediate testing
+- **CORS Configuration** for cross-origin requests
 
-- Backend: ASP.NET Core 9 (Web API + MVC)
-- Frontend: Razor Views (HTML/CSS/Bootstrap)
-- Database: SQLite (file-based)
-- ORM: Entity Framework Core
+### 🎯 Bonus Features
+- **Live Deployment** with multiple hosting options
+- **GitHub Actions** for CI/CD pipeline
+- **Docker Support** for containerized deployment
+- **GitHub Codespaces** configuration for instant development
 
+## 🔗 Live Demo
+
+- **🌐 Live Application**: [https://eventmanagementapi-production.up.railway.app](https://eventmanagementapi-production.up.railway.app)
+- **📚 API Documentation**: [https://eventmanagementapi-production.up.railway.app/swagger](https://eventmanagementapi-production.up.railway.app/swagger)
+- **📁 GitHub Repository**: [https://github.com/mohamedkhamis/EventManagementAPI](https://github.com/mohamedkhamis/EventManagementAPI)
+
+## 🏗️ Architecture
